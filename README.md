@@ -1,4 +1,5 @@
-# ![Logo](chrome/app/theme/chromium/product_logo_64.png) Chromium
+# [Sapphire Browser](https://github.com/TeamFirework/SapphireBrowser/wiki/)
+## ![Logo](chrome/app/theme/chromium/product_logo_32.png) Based on Chromium
 
 Chromium is an open-source browser project that aims to build a safer, faster,
 and more stable way for all users to experience the web.
