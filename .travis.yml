@@ -1,6 +1,7 @@
 install: 
  - git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
  - export PATH="$PATH:/$(cd)/depot_tools"
+ - apt update && apt upgrade
  - sh ./build/install-build-deps.sh --no-chromeos-fonts
  - gclient runhooks
  - gn gen out/Default
