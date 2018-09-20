@@ -3,7 +3,7 @@ install:
  - export PATH="$PATH:/$(cd)/depot_tools"
  - sudo apt update && sudo apt upgrade
  - sh ./build/install-build-deps.sh --no-chromeos-fonts
- - gclient runhooks
- - gn gen out/Default
+ - sudo gclient runhooks
+ - sudo gn gen out/Default
 script: autoninja -C out/Default chrome
 sudo: required
