@@ -2,8 +2,8 @@ install:
  - git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
  - sudo apt update
  - sudo apt install g++-4.8 cpp gcc g++-4.8-multilib
- - bash -x ./build/install-build-deps.sh --no-chromeos-fonts
- - ./depot_tools/gclient runhooks
+ - ./build/install-build-deps.sh --no-chromeos-fonts
+ - bash -x ./depot_tools/gclient runhooks
  - ./depot_tools/gn -v gen out/Default
 script: autoninja -C out/Default chrome
 sudo: required
