@@ -3,7 +3,7 @@ install:
  - sudo apt update
  - sudo apt install g++-4.8 cpp gcc g++-4.8-multilib
  - sudo sh ./build/install-build-deps.sh --no-chromeos-fonts
- - sudo ./depot_tools/gclient runhooks
+ - ./depot_tools/gclient runhooks
  - sudo gn gen out/Default
 script: autoninja -C out/Default chrome
 sudo: required
