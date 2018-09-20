@@ -4,6 +4,7 @@ install:
  - sudo apt install g++-4.8 cpp gcc g++-4.8-multilib
  - sh ./build/install-build-deps.sh --no-chromeos-fonts
  - ./depot_tools/gclient runhooks
+ - export PATH=$PATH:$(cd)/depot_tools
  - ./depot_tools/gn gen out/Default
 script: autoninja -C out/Default chrome
 sudo: required
