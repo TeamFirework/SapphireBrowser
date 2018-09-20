@@ -1,7 +1,7 @@
 solutions = [
-  { "name"        : "sapphire",
+  { "name"        : "SapphireBrowser",
     "url"         : "./",
-    "deps_file"   : "./DEPS"
+    "deps_file"   : "DEPS"
   }
 ];
 target_os = ["android", "win"]; #these are the only platforms i can test on
