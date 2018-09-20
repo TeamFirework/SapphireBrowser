@@ -1,6 +1,6 @@
 install: 
  - git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
- - su
+ - sudo -s
  - PATH="$PATH:/$(cd)/depot_tools"
  - apt update
  - apt install g++-4.8 cpp gcc g++-4.8-multilib
