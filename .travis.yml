@@ -1,6 +1,6 @@
 install: 
  - git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
- - sudo export PATH="$PATH:/$(cd)/depot_tools"
+ - sudo PATH="$PATH:/$(cd)/depot_tools"
  - sudo apt update
  - sudo apt install g++-4.8 cpp gcc g++-4.8-multilib
  - sudo sh ./build/install-build-deps.sh --no-chromeos-fonts
