@@ -1,6 +1,6 @@
 solutions = [
   { "name"        : "SapphireBrowser",
-    "url"         : "./",
+    "url"         : "https://github.com/TeamFirework/SapphireBrowser.git",
     "deps_file"   : "DEPS"
   }
 ];
