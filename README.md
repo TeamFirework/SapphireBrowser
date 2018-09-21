@@ -1,5 +1,11 @@
 # [Sapphire Browser](https://github.com/TeamFirework/SapphireBrowser/wiki/)
-## ![Logo](chrome/app/theme/chromium/product_logo_32.png) Based on Chromium
+Objectives:
+1. Configure [Travis](https://travis-ci.org/TeamFirework/SapphireBrowser/) to build correctly
+2. Add the Go IPFS implementation (or the JS one if it's ready)
+
+For more information see [Projects](/TeamFirework/SapphireBrowser/projects) and the [Wiki](/TeamFirework/SapphireBrowser/wiki).
+
+## ![Logo](chrome/app/theme/chromium/product_logo_64.png) Based on Chromium
 
 Chromium is an open-source browser project that aims to build a safer, faster,
 and more stable way for all users to experience the web.
