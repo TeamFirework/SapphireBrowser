@@ -1,4 +1,4 @@
-if: (branch = master) AND NOT (commit_message =~ /\[NOBUILD\]) #Use [NOBUILD] to cancel build
+if: (branch = master) AND NOT (commit_message =~ /\[NOBUILD\]/) #Use [NOBUILD] to cancel build
 install: 
  - git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
  - sudo apt update
