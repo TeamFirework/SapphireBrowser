@@ -5,6 +5,10 @@ install:
  - sudo apt install g++-4.8 cpp gcc g++-4.8-multilib
  - ./build/install-build-deps.sh --no-chromeos-fonts
  - ./depot_tools/gclient runhooks
+ - sudo chmod +x ./buildtools/linux64/gn
  - ./depot_tools/gn -v gen out/Default
 script: autoninja -C out/Default chrome
+after_script:
+ - sudo snap install ipfs
+ - ipfs add -r ./out/
 sudo: required
